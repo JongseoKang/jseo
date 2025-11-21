@@ -1,10 +1,8 @@
-from .. import compiler
+from . import compiler
 
-import triton.language.core as tl
-from .core import (load,
+from .memref import (load,
                    )
 
 __all__ = [
-    load,
-    
+    "load",
 ]
